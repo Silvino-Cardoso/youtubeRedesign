@@ -62,19 +62,19 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 200px;
     height: 100%;
     list-style: none;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: #898989;
-    margin: 40px 0px 0px 30px;
+    margin: 40px 20px 0px 30px;
 }
 .nav-list li {
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
+    width: 200px;
 }
 .active{
     color: #FF0000;
@@ -85,6 +85,8 @@
 .menu-ul {
     margin-top: 60px;
 }
+
+
 .show-more{
     display: flex;
     align-items: center;
@@ -113,8 +115,125 @@
 
 /* estilização content */
 
+h5{
+    color: #19202C;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+}
+h6{
+    color: #C2C2C2;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .content{
     width: 100%;
+}
+
+.subscriptions-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+}
+.video-info{
+    display: flex;
+    margin: 0;
+    
+}
+.video-info h6{
+    margin: 5px;
+}
+
+.subscriptions-videos-label{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.subscriptions-videos-label img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.subscriptions-videos-label h2 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 20px;
+}
+.subscriptions-videos-container{
+    max-width: 100vw;
+    overflow: scroll;
+    display: flex;
+}
+.recommended-videos{
+    height: 250px;
+    margin: 20px;
+}
+.recommended-video-info{
+    margin-left: 20px;
+}
+
+.recommended-videos-content img{
+    margin: 20px;
+    width: 540px;
+    height: 250px;
+}
+.recommended-videos-content h5{
+    margin-left: 25px;
+    
+}
+.recommended-videos-label{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recommended-videos-label h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.recommended-videos-container{
+    max-width: 100vw;
+    overflow: scroll;
+    display: flex;
+}
+.recommended-channels-videos{
+    margin: 20px;
+}
+
+
+.recommended-channels-label{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.recommended-channels-text{
+    display: flex;
+    align-items: flex-end;
+}
+
+.recommended-channels-text h2 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 20px;
+}
+.recommended-channels-text h3 {
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: #C2C2C2;
+}
+.recommended-channels-videos-container{
+    max-width: 100vw;
+    overflow: scroll;
+    display: flex;
 }
 
 
